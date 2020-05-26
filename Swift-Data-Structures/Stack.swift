@@ -27,6 +27,7 @@ class Stack {
     }
     
     func printItems() {
+        print("Stack items:")
         for item in items.reversed() {
             print(item)
         }
